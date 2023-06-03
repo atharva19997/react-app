@@ -16,3 +16,4 @@ Add file named ListGroup.tsx and add a function there.
 Do the same changes in app.tsx and check on webpage.
 Go to getbootstrap.com > docs > List Group. Copy html code there and paste in ListGroup after return keyword.
 After doing changes, if script is not formatted, go to command pallete and select format document, configure default formatter and select prettier.
+Treat props as immutable and state as mutable.
