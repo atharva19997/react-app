@@ -1,0 +1,18 @@
+Full tutorial at https://www.youtube.com/watch?v=SqcY0GlETPk
+Open folder where you want to start the project folder
+Open terminal in cmd or VS code
+Type 'create vite@4.1.0'. You can use other apps to create the project
+It installs the packages. Say y to proceed.
+Add project name, framework(react) and variant(here it is typescript)
+It shows the required commands to start the localhost, usually it is cd project-name, npm install, npm run dev.
+After npm run dev, it starts the server on localhost.
+To add components in the app, create a file in src folder and add your code.
+Whatever changes you make in the src files, are tracked by vite and it hot reloads it in the browser.
+Install bootstrap for nice css. use 'npm install (or i for short) bootstrap@5.2.3'. Check latest version if you want.
+Delete all in app.css and delete index.css file.
+In main.tsx, index.css is imported, remove that and import bootstrap/dist/css/bootstrap.css
+Now starting the main app, create a folder in src called Components. It is standard.
+Add file named ListGroup.tsx and add a function there.
+Do the same changes in app.tsx and check on webpage.
+Go to getbootstrap.com > docs > List Group. Copy html code there and paste in ListGroup after return keyword.
+After doing changes, if script is not formatted, go to command pallete and select format document, configure default formatter and select prettier.
